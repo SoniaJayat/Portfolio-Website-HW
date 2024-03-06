@@ -4,6 +4,30 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 575px) {
+  img {
+    display: none;
+  }
+
+  h2.text-center {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  h1.text-center {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h3.text-center {
+    font-size: 22px;
+  }
+
+  h2.mb-3 {
+    text-align: center;
+  }
+}
+
 body {
   margin-top: 100px;
 }
